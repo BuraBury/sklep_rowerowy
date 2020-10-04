@@ -1,0 +1,123 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(24, 22, 22);
+    margin: 0px;
+}
+
+header{
+    background-color: rgba(255, 228, 196, 0.479);
+    padding: 20px;
+}
+
+header h1, header h2 {
+    margin: 0px;
+    text-align: center;
+}
+
+h1{
+    font-size: 94px;
+}
+
+h2{
+    font-size: 42px;
+    margin: 0%;
+    margin-bottom: 2%;
+}
+main{
+    font-size: 30px;
+}
+
+header nav a {
+    display: block;
+    background-color: rgba(14, 13, 13, 0.445);
+    color: white;
+    float: left;
+    width: 150px;
+    padding: 5px;
+        margin-right: 5px;
+
+    text-align: center;
+}
+
+main section, main aside {
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+main section {
+    width: 70%;
+}
+main aside {
+    width: 30%;
+    background-color: lightgrey;
+    height: 100vh;
+}
+
+img {
+   position: initial; 
+    width: 100%;
+    margin-top: 15px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: rgba(255, 228, 196, 0.479);
+    width: 100%;
+    padding: 5px;
+}
+
+form{
+    margin-left: 10px;
+}
+
+header.small{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:blue;
+}
+
+ol {
+    font-size: 32px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+main {
+    width: 100%;
+}
+
+.menu:hover {
+    background-color: rgba(19, 18, 18, 0.308);
+    color: white;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header#akcesoria {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRz3gfWa46BIox9lwOFIq2F5v04mq8EEXUcfQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    color: aliceblue;
+    text-align: left;
+}
+
+
+
+
+
